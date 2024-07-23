@@ -4,9 +4,20 @@ Ce projet est une implémentation moderne du jeu classique Pong, développé ave
 
 ## 📸 Captures d'écran
 
-| Menu Principal                                               | Paramètres                                                           | Mode Solo                                                    | Mode duo                                                   |
-| ------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| <img src="assets/pong-game-menu.png" width="200" alt="Menu"> | <img src="assets/pong-game-settings.png" width="200" alt="Settings"> | <img src="assets/pong-game-solo.png" width="200" alt="Solo"> | <img src="assets/pong-game-duo.png" width="200" alt="Duo"> |
+<table>
+  <tr>
+    <th>Menu Principal</th>
+    <th>Paramètres</th>
+    <th>Mode Solo</th>
+    <th>Mode duo</th>
+  </tr>
+  <tr>
+    <td><img src="src/assets/pong-game-menu.png" width="200" alt="Menu"></td>
+    <td><img src="src/assets/pong-game-settings.png" width="200" alt="Settings"></td>
+    <td><img src="src/assets/pong-game-solo.png" width="200" alt="Solo"></td>
+    <td><img src="src/assets/pong-game-duo.png" width="200" alt="Duo"></td>
+  </tr>
+</table>
 
 ## 🛠 Technologies et Outils Utilisés
 
@@ -68,4 +79,4 @@ Pour créer une version de production : `npm run build`
 
 ---
 
-Développé avec par BEAUCHARD Nicolas
+Développé par BEAUCHARD Nicolas
