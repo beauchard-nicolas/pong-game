@@ -9,5 +9,5 @@ export interface GameState {
   gameMode: 'menu' | 'settings' | 'game';
   players: [Player, Player];
   difficulty: DifficultyLevel;
-  winningScore: number; // Ajoutez cette ligne
+  winningScore: number;
 }

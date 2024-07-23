@@ -12,7 +12,7 @@ const PongGame: React.FC = () => {
       { inputType: 'CLAVIER (Z/S)' }
     ],
     difficulty: 'MOYEN',
-    winningScore: 5 // Valeur par défaut
+    winningScore: 5 
   });
 
   const handleSelectMode = (mode: 'onePlayer' | 'twoPlayers', winningScore: number) => {

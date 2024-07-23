@@ -1,64 +1,46 @@
-# Pong Game React
+# Getting Started with Create React App
 
-Ce projet est une implémentation moderne du jeu classique Pong, développé avec React et TypeScript.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🛠 Technologies et Outils Utilisés
+## Available Scripts
 
-- React 18
-- TypeScript
-- CSS Modules
-- HTML5 Canvas pour le rendu du jeu
+In the project directory, you can run:
 
-## 🧩 Composants Principaux
+### `npm start`
 
-1. `PongGame`: Composant principal qui gère l'état global du jeu.
-2. `Menu`: Affiche le menu principal avec les options de jeu.
-3. `SettingsMenu`: Permet aux joueurs de configurer les contrôles et la difficulté.
-4. `GameBoard`: Gère la logique du jeu et le rendu du terrain de jeu.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 🎮 Fonctionnement du Jeu
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Le jeu propose deux modes : Un joueur (contre l'IA) et Deux joueurs.
-- Les joueurs contrôlent leurs raquettes pour frapper la balle.
-- Le premier joueur à atteindre le score gagnant remporte la partie.
+### `npm test`
 
-### Contrôles
-- Les joueurs peuvent choisir entre :
-  - Souris
-  - Clavier (Z/S)
-  - Flèches directionnelles
-  - Pavé numérique (-/+)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## ⚙ Paramètres
+### `npm run build`
 
-- Nombre de manches gagnantes : 3, 5, 10 ou personnalisé
-- Difficulté de l'IA : Facile, Moyen, Difficile
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🤖 Gestion de l'IA
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-L'IA ajuste sa vitesse et sa réactivité en fonction du niveau de difficulté choisi :
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Facile : Mouvements lents et prédictibles
-- Moyen : Vitesse et précision modérées
-- Difficile : Mouvements rapides et anticipation accrue
+### `npm run eject`
 
-L'IA utilise la position de la balle pour calculer ses mouvements, avec une marge d'erreur qui diminue avec l'augmentation de la difficulté.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## 🚀 Installation et Lancement
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. Clonez le repository
-2. Installez les dépendances : `npm install`
-3. Lancez le serveur de développement : `npm start`
-4. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## 🧪 Tests
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Lancez les tests avec la commande : `npm test`
+## Learn More
 
-## 🏗 Build
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Pour créer une version de production : `npm run build`
-
----
-
-Développé avec ❤️ par [Votre Nom]
+To learn React, check out the [React documentation](https://reactjs.org/).
